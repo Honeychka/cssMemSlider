@@ -14,8 +14,8 @@ input{
     align-items: center;
     justify-content: center;
     width: 45%;
-    height: 70%;
-    margin: 10% auto;
+    height: 90vh;
+    margin: 5% auto;
 }
 .slider{
     display: flex;
@@ -23,11 +23,11 @@ input{
     border-radius: 2%;
     overflow: hidden;
     max-width: 80vw;
-    height: 100%;
+    height: 80%;
 }
 .slider__items{
     width: 400%;
-    height: 100%;
+    height: 80%;
     display: flex;
 }
 .item{
@@ -36,10 +36,11 @@ input{
 }
 .item img{
     border-radius: 2%;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 .navigation{
+    margin-right: 2%;
     display: flex;
     justify-content: end;
 }
@@ -58,7 +59,7 @@ input{
 }
 .slider__text{
     width: 400%;
-    height: 100%;
+    height: 13%;
     display: flex;
     transition: all 0.1s ease-in-out;
 }
@@ -108,7 +109,7 @@ input{
 	border: 2px solid gray;
     background-color: gray;
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .navigation{
         justify-content: center;
         margin-top: 5%;
